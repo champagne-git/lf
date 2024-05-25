@@ -105,9 +105,11 @@ chaifen:
   option_name: chaifen
   show_in_comment: true 
   comment_format:     
-    # - "xform/&nbsp;/ /"
-    # - "xform/^/〔/"
-    # - "xform/$/〕/"
+    - "xform/1/一/"
+    - "xform/2/丨/"
+    - "xform/3/丿/"
+    - "xform/4/丶/"
+    - "xform/5/乙/"
   tags:
     - abc
   tips: all #如只想给单字加滤镜，可改为 char
@@ -132,4 +134,4 @@ recognizer:
     pinyin_lookup: "^`[qwtasdfgzxcvbyphjklnm]?[a-z]*'?$"
 
 menu:
-  page_size: 10
+  page_size: 6

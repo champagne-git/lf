@@ -42,7 +42,7 @@ const writeToFile = (data, filePath) => {
     })
 }
 
-const generateOriginalChaiFen = (bhData, bsData, pyData) => {
+const generateOriginalChaiFen = (bhData, bsData, pyData, zgData) => {
     return bsData
         .map(item => {
             const bhItem = bhData[item.char]
@@ -66,6 +66,8 @@ const generateOriginalChaiFen = (bhData, bsData, pyData) => {
                 strokes = '5'
             } else if (item.char === '囗') {
                 strokes = '1'
+            } else if (item.char === '必') {
+                strokes = '3'
             }
 
             while (strokes.length < 4) {
@@ -104,11 +106,14 @@ const generateGuiBing = cf => {
 const main = () => {
     const biHuaData = readFileAndParseData('./bihua.txt')
     const pinYinData = readFileAndParseData('./pinyin.txt')
+    const ziGenData = readFileAndParseData('./zigen.txt')
     const buShouData = readBuShou('./bushou.txt')
-    const chaiFen = generateOriginalChaiFen(biHuaData, buShouData, pinYinData)
-    const guiBing = generateGuiBing(generateOriginalChaiFen(biHuaData, buShouData, pinYinData))
-    writeToFile(chaiFen, './cfb.txt')
-    writeToFile(guiBing, './gb.txt')
+    const chaiFen = generateOriginalChaiFen(biHuaData, buShouData, pinYinData, ziGenData)
+    const guiBing = generateGuiBing(
+        generateOriginalChaiFen(biHuaData, buShouData, pinYinData, ziGenData)
+    )
+    writeToFile(chaiFen, './output_cf.txt')
+    writeToFile(guiBing, './output_gbcf.txt')
 }
 
 main()
