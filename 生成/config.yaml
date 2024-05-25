@@ -1,0 +1,878 @@
+version: 0.1.7
+source: null
+info:
+  name: 二笔
+  version: 0.1.0
+  author: 无名氏
+  description: 从模板创建
+analysis:
+  classifier: {}
+  degenerator:
+    feature:
+      捺: 点
+      提: 横
+    no_cross: false
+  selector:
+  - 结构完整
+  - 根少优先
+  - 能连不交
+  - 能散不连
+  - 全符笔顺
+  - 取大优先
+form:
+  alphabet: qwertyuiopasdfghjklzxcvbnm
+  mapping:
+    儿: f
+    雨: q
+    sm-z: c
+    '5': a
+    sm-zh: g
+    风: x
+    麦: c
+    麥: c
+    工: i
+    人: j
+    亻: j
+    石: t
+    覀: w
+    酉: w
+    攴: k
+    口: i
+    大: i
+    力: w
+    止: d
+    贝: f
+    彳: t
+    示: h
+    礻: h
+    丨: i
+    禾: h
+    sm-j: j
+    sm-m: t
+    厶: l
+    舟: r
+    又: d
+    青: q
+    髟: q
+    立: n
+    斤: l
+    犬: k
+    山: q
+    木: d
+    齿: u
+    王: r
+    方: g
+    鱼: z
+    瓦: r
+    足: q
+    疒: b
+    八: r
+    鼠: r
+    毛: u
+    鸟: n
+    弓: h
+    革: k
+    sm-g: r
+    '4': o
+    黑: l
+    白: k
+    臼: k
+    隹: e
+    艮: l
+    手: g
+    扌: g
+    走: u
+    父: w
+    sm-b: n
+    户: b
+    皮: v
+    牛: x
+    牜: x
+    羽: z
+    矢: a
+    田: b
+    丶: o
+    sm-d: d
+    sm-0: p
+    癶: v
+    sm-ch: z
+    刀: m
+    刂: m
+    豆: a
+    辶: n
+    廴: n
+    耒: x
+    瓜: j
+    韦: q
+    心: w
+    忄: w
+    车: k
+    車: k
+    音: g
+    巛: b
+    囗: h
+    凵: h
+    冂: h
+    匚: h
+    戈: i
+    sm-x: h
+    爿: h
+    辰: h
+    尢: v
+    衣: p
+    衤: p
+    月: s
+    疋: d
+    土: l
+    士: l
+    血: h
+    乙: a
+    门: t
+    巾: z
+    丿: u
+    sm-sh: f
+    日: k
+    页: z
+    麻: b
+    夕: h
+    聿: m
+    爪: j
+    sm-s: b
+    sm-q: q
+    见: g
+    自: o
+    女: m
+    斗: j
+    气: c
+    二: v
+    水: o
+    氵: o
+    一: e
+    赤: z
+    勹: t
+    sm-w: s
+    鼻: x
+    火: y
+    灬: y
+    己: r
+    龙: f
+    : u
+    sm-t: v
+    卜: o
+    耳: x
+    阝: x
+    卩: x
+    厂: c
+    '2': i
+    sm-k: c
+    缶: y
+    比: s
+    片: c
+    纟: c
+    糸: c
+    夂: l
+    目: y
+    豕: i
+    sm-c: p
+    冫: z
+    小: s
+    骨: w
+    米: m
+    '1': e
+    其: k
+    镸: s
+    艹: v
+    屮: v
+    廾: v
+    豸: j
+    sm-f: m
+    羊: s
+    sm-h: w
+    宀: p
+    冖: p
+    歹: p
+    鹿: h
+    几: h
+    辛: e
+    身: c
+    角: v
+    殳: h
+    sm-r: s
+    食: b
+    饣: b
+    攵: y
+    马: p
+    皿: s
+    彡: g
+    丬: s
+    子: h
+    里: s
+    十: l
+    言: f
+    讠: f
+    犭: k
+    彐: r
+    母: n
+    毋: n
+    尸: q
+    罒: e
+    欠: b
+    用: f
+    穴: s
+    寸: c
+    sm-l: l
+    金: a
+    钅: a
+    卤: h
+    广: b
+    舌: u
+    sm-y: k
+    '3': u
+    sm-p: y
+    文: f
+    亠: f
+    虫: e
+    鬼: l
+    sm-n: x
+    虍: s
+    业: l
+  grouping: {}
+encoder:
+  max_length: 6
+  auto_select_length: 2
+  sources:
+    s0:
+      object: null
+      next: s1
+    s4:
+      object:
+        type: 字根
+        rootIndex: 4
+      next: s5
+    s5:
+      object:
+        type: 字根
+        rootIndex: 5
+      next: s6
+    s6:
+      object:
+        type: 字根
+        rootIndex: -1
+      next: null
+    s2:
+      object:
+        type: 字根
+        rootIndex: 2
+      next: s3
+    s3:
+      object:
+        type: 字根
+        rootIndex: 3
+      next: s4
+    s1:
+      object:
+        type: 字根
+        rootIndex: 1
+      next: s2
+  conditions: {}
+  short_code_schemes:
+  - prefix: 2
+  - prefix: 3
+  - prefix: 4
+  - prefix: 5
+  rules:
+  - length_equal: 2
+    formula: AaAbBaBb
+  - length_equal: 3
+    formula: AaBaCaCb
+  - length_in_range:
+    - 4
+    - 10
+    formula: AaBaCaZa
+optimization:
+  objective:
+    characters_full:
+      duplication: 1.0
+    characters_short:
+      tiers:
+      - duplication: 10.0
+      duplication: 10.0
+      key_distribution: 10.0
+      pair_equivalence: 10.0
+      levels:
+      - length: 2
+        frequency: -10.0
+      - length: 3
+        frequency: 1.0
+      - length: 4
+        frequency: 10.0
+  constraints:
+    elements:
+    - element: 乙
+    - element: 一
+    - element: 丿
+    - element: 丨
+    - element: 丶
+    - element: '1'
+    - element: '2'
+    - element: '3'
+    - element: '4'
+    - element: '5'
+    - element: sm-q
+      keys:
+      - 'q'
+      - 'w'
+      - 'r'
+      - 't'
+      - 'y'
+      - 'p'
+      - 's'
+      - 'd'
+      - 'f'
+      - 'g'
+      - 'h'
+      - 'j'
+      - 'k'
+      - 'l'
+      - 'z'
+      - 'x'
+      - 'c'
+      - 'v'
+      - 'b'
+      - 'n'
+      - 'm'
+    - element: sm-w
+      keys:
+      - 'q'
+      - 'w'
+      - 'r'
+      - 't'
+      - 'y'
+      - 'p'
+      - 's'
+      - 'd'
+      - 'f'
+      - 'g'
+      - 'h'
+      - 'j'
+      - 'k'
+      - 'l'
+      - 'z'
+      - 'x'
+      - 'c'
+      - 'v'
+      - 'b'
+      - 'n'
+      - 'm'
+    - element: sm-r
+      keys:
+      - 'q'
+      - 'w'
+      - 'r'
+      - 't'
+      - 'y'
+      - 'p'
+      - 's'
+      - 'd'
+      - 'f'
+      - 'g'
+      - 'h'
+      - 'j'
+      - 'k'
+      - 'l'
+      - 'z'
+      - 'x'
+      - 'c'
+      - 'v'
+      - 'b'
+      - 'n'
+      - 'm'
+    - element: sm-t
+      keys:
+      - 'q'
+      - 'w'
+      - 'r'
+      - 't'
+      - 'y'
+      - 'p'
+      - 's'
+      - 'd'
+      - 'f'
+      - 'g'
+      - 'h'
+      - 'j'
+      - 'k'
+      - 'l'
+      - 'z'
+      - 'x'
+      - 'c'
+      - 'v'
+      - 'b'
+      - 'n'
+      - 'm'
+    - element: sm-y
+      keys:
+      - 'q'
+      - 'w'
+      - 'r'
+      - 't'
+      - 'y'
+      - 'p'
+      - 's'
+      - 'd'
+      - 'f'
+      - 'g'
+      - 'h'
+      - 'j'
+      - 'k'
+      - 'l'
+      - 'z'
+      - 'x'
+      - 'c'
+      - 'v'
+      - 'b'
+      - 'n'
+      - 'm'
+    - element: sm-p
+      keys:
+      - 'q'
+      - 'w'
+      - 'r'
+      - 't'
+      - 'y'
+      - 'p'
+      - 's'
+      - 'd'
+      - 'f'
+      - 'g'
+      - 'h'
+      - 'j'
+      - 'k'
+      - 'l'
+      - 'z'
+      - 'x'
+      - 'c'
+      - 'v'
+      - 'b'
+      - 'n'
+      - 'm'
+    - element: sm-s
+      keys:
+      - 'q'
+      - 'w'
+      - 'r'
+      - 't'
+      - 'y'
+      - 'p'
+      - 's'
+      - 'd'
+      - 'f'
+      - 'g'
+      - 'h'
+      - 'j'
+      - 'k'
+      - 'l'
+      - 'z'
+      - 'x'
+      - 'c'
+      - 'v'
+      - 'b'
+      - 'n'
+      - 'm'
+    - element: sm-d
+      keys:
+      - 'q'
+      - 'w'
+      - 'r'
+      - 't'
+      - 'y'
+      - 'p'
+      - 's'
+      - 'd'
+      - 'f'
+      - 'g'
+      - 'h'
+      - 'j'
+      - 'k'
+      - 'l'
+      - 'z'
+      - 'x'
+      - 'c'
+      - 'v'
+      - 'b'
+      - 'n'
+      - 'm'
+    - element: sm-f
+      keys:
+      - 'q'
+      - 'w'
+      - 'r'
+      - 't'
+      - 'y'
+      - 'p'
+      - 's'
+      - 'd'
+      - 'f'
+      - 'g'
+      - 'h'
+      - 'j'
+      - 'k'
+      - 'l'
+      - 'z'
+      - 'x'
+      - 'c'
+      - 'v'
+      - 'b'
+      - 'n'
+      - 'm'
+    - element: sm-g
+      keys:
+      - 'q'
+      - 'w'
+      - 'r'
+      - 't'
+      - 'y'
+      - 'p'
+      - 's'
+      - 'd'
+      - 'f'
+      - 'g'
+      - 'h'
+      - 'j'
+      - 'k'
+      - 'l'
+      - 'z'
+      - 'x'
+      - 'c'
+      - 'v'
+      - 'b'
+      - 'n'
+      - 'm'
+    - element: sm-h
+      keys:
+      - 'q'
+      - 'w'
+      - 'r'
+      - 't'
+      - 'y'
+      - 'p'
+      - 's'
+      - 'd'
+      - 'f'
+      - 'g'
+      - 'h'
+      - 'j'
+      - 'k'
+      - 'l'
+      - 'z'
+      - 'x'
+      - 'c'
+      - 'v'
+      - 'b'
+      - 'n'
+      - 'm'
+    - element: sm-j
+      keys:
+      - 'q'
+      - 'w'
+      - 'r'
+      - 't'
+      - 'y'
+      - 'p'
+      - 's'
+      - 'd'
+      - 'f'
+      - 'g'
+      - 'h'
+      - 'j'
+      - 'k'
+      - 'l'
+      - 'z'
+      - 'x'
+      - 'c'
+      - 'v'
+      - 'b'
+      - 'n'
+      - 'm'
+    - element: sm-k
+      keys:
+      - 'q'
+      - 'w'
+      - 'r'
+      - 't'
+      - 'y'
+      - 'p'
+      - 's'
+      - 'd'
+      - 'f'
+      - 'g'
+      - 'h'
+      - 'j'
+      - 'k'
+      - 'l'
+      - 'z'
+      - 'x'
+      - 'c'
+      - 'v'
+      - 'b'
+      - 'n'
+      - 'm'
+    - element: sm-l
+      keys:
+      - 'q'
+      - 'w'
+      - 'r'
+      - 't'
+      - 'y'
+      - 'p'
+      - 's'
+      - 'd'
+      - 'f'
+      - 'g'
+      - 'h'
+      - 'j'
+      - 'k'
+      - 'l'
+      - 'z'
+      - 'x'
+      - 'c'
+      - 'v'
+      - 'b'
+      - 'n'
+      - 'm'
+    - element: sm-z
+      keys:
+      - 'q'
+      - 'w'
+      - 'r'
+      - 't'
+      - 'y'
+      - 'p'
+      - 's'
+      - 'd'
+      - 'f'
+      - 'g'
+      - 'h'
+      - 'j'
+      - 'k'
+      - 'l'
+      - 'z'
+      - 'x'
+      - 'c'
+      - 'v'
+      - 'b'
+      - 'n'
+      - 'm'
+    - element: sm-x
+      keys:
+      - 'q'
+      - 'w'
+      - 'r'
+      - 't'
+      - 'y'
+      - 'p'
+      - 's'
+      - 'd'
+      - 'f'
+      - 'g'
+      - 'h'
+      - 'j'
+      - 'k'
+      - 'l'
+      - 'z'
+      - 'x'
+      - 'c'
+      - 'v'
+      - 'b'
+      - 'n'
+      - 'm'
+    - element: sm-c
+      keys:
+      - 'q'
+      - 'w'
+      - 'r'
+      - 't'
+      - 'y'
+      - 'p'
+      - 's'
+      - 'd'
+      - 'f'
+      - 'g'
+      - 'h'
+      - 'j'
+      - 'k'
+      - 'l'
+      - 'z'
+      - 'x'
+      - 'c'
+      - 'v'
+      - 'b'
+      - 'n'
+      - 'm'
+    - element: sm-b
+      keys:
+      - 'q'
+      - 'w'
+      - 'r'
+      - 't'
+      - 'y'
+      - 'p'
+      - 's'
+      - 'd'
+      - 'f'
+      - 'g'
+      - 'h'
+      - 'j'
+      - 'k'
+      - 'l'
+      - 'z'
+      - 'x'
+      - 'c'
+      - 'v'
+      - 'b'
+      - 'n'
+      - 'm'
+    - element: sm-n
+      keys:
+      - 'q'
+      - 'w'
+      - 'r'
+      - 't'
+      - 'y'
+      - 'p'
+      - 's'
+      - 'd'
+      - 'f'
+      - 'g'
+      - 'h'
+      - 'j'
+      - 'k'
+      - 'l'
+      - 'z'
+      - 'x'
+      - 'c'
+      - 'v'
+      - 'b'
+      - 'n'
+      - 'm'
+    - element: sm-m
+      keys:
+      - 'q'
+      - 'w'
+      - 'r'
+      - 't'
+      - 'y'
+      - 'p'
+      - 's'
+      - 'd'
+      - 'f'
+      - 'g'
+      - 'h'
+      - 'j'
+      - 'k'
+      - 'l'
+      - 'z'
+      - 'x'
+      - 'c'
+      - 'v'
+      - 'b'
+      - 'n'
+      - 'm'
+    - element: sm-sh
+      keys:
+      - 'q'
+      - 'w'
+      - 'r'
+      - 't'
+      - 'y'
+      - 'p'
+      - 's'
+      - 'd'
+      - 'f'
+      - 'g'
+      - 'h'
+      - 'j'
+      - 'k'
+      - 'l'
+      - 'z'
+      - 'x'
+      - 'c'
+      - 'v'
+      - 'b'
+      - 'n'
+      - 'm'
+    - element: sm-ch
+      keys:
+      - 'q'
+      - 'w'
+      - 'r'
+      - 't'
+      - 'y'
+      - 'p'
+      - 's'
+      - 'd'
+      - 'f'
+      - 'g'
+      - 'h'
+      - 'j'
+      - 'k'
+      - 'l'
+      - 'z'
+      - 'x'
+      - 'c'
+      - 'v'
+      - 'b'
+      - 'n'
+      - 'm'
+    - element: sm-zh
+      keys:
+      - 'q'
+      - 'w'
+      - 'r'
+      - 't'
+      - 'y'
+      - 'p'
+      - 's'
+      - 'd'
+      - 'f'
+      - 'g'
+      - 'h'
+      - 'j'
+      - 'k'
+      - 'l'
+      - 'z'
+      - 'x'
+      - 'c'
+      - 'v'
+      - 'b'
+      - 'n'
+      - 'm'
+    - element: sm-0
+      keys:
+      - 'q'
+      - 'w'
+      - 'r'
+      - 't'
+      - 'y'
+      - 'p'
+      - 's'
+      - 'd'
+      - 'f'
+      - 'g'
+      - 'h'
+      - 'j'
+      - 'k'
+      - 'l'
+      - 'z'
+      - 'x'
+      - 'c'
+      - 'v'
+      - 'b'
+      - 'n'
+      - 'm'
+  metaheuristic:
+    algorithm: SimulatedAnnealing
+    parameters:
+      t_max: 1.51
+      t_min: 2.88e-6
+      steps: 8000000

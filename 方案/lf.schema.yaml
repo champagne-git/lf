@@ -1,0 +1,135 @@
+# Rime schema settings
+# encoding: utf-8
+
+schema:
+  schema_id: lf
+  name: "乱飞"
+  version: "1.0"
+  author:
+    - 戴石麟 <https://sbxlm.github.io>
+    - 蓝落萧 <https://tansongchen.com>
+    - Champagne
+  dependencies:
+    - pinyin_simp #拼音反查
+    - stroke #笔画反查
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: chaifen
+    reset: 1
+    states: [ 拆隐, 拆显 ]
+
+engine:
+  processors:
+    - selector
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - affix_segmentor@bihua_lookup
+    - affix_segmentor@pinyin_lookup
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - table_translator
+    - table_translator@bihua_lookup
+    - script_translator@pinyin_lookup
+  filters:
+    - simplifier@chaifen #拆分滤镜
+    - reverse_lookup_filter@bihua_reverse_lookup
+    - reverse_lookup_filter@pinyin_reverse_lookup
+    - uniquifier
+
+speller:
+  alphabet: "qwertasdfgzxcvbyuiophjklnm"
+  initials: "qwrtsdfgzxcvbyphjklnm"
+  auto_select: true
+
+translator:
+  dictionary: lf
+  enable_user_dict: false
+  enable_encoder: false
+  enable_sentence: false
+  strict_spelling: true
+  enable_completion: false
+  encode_commit_history: false
+  max_phrase_length: 5
+
+# ↓↓ 反查部分 ↓↓
+bihua_lookup:
+  tag: bihua_lookup
+  dictionary: stroke
+  enable_user_dict: false
+  enable_encoder: false
+  enable_sentence: false
+  strict_spelling: true
+  enable_completion: true
+  encode_commit_history: false
+  prefix: "~"
+  tips: "〔笔画反查〕"
+
+bihua_reverse_lookup:
+  tags: [ bihua_lookup ] 
+  overwrite_comment: true
+  dictionary: lf
+
+pinyin_lookup:
+  tag: pinyin_lookup
+  dictionary: pinyin_simp
+  enable_user_dict: false
+  enable_encoder: false
+  enable_sentence: false
+  strict_spelling: true
+  enable_completion: true
+  encode_commit_history: false
+  prefix: "`"
+  tips: "〔拼音反查〕"
+
+pinyin_reverse_lookup:
+  tags: [ pinyin_lookup ] 
+  overwrite_comment: true
+  dictionary: lf
+
+chaifen:
+  opencc_config: lf_cf.json
+  option_name: chaifen
+  show_in_comment: true 
+  comment_format:     
+    # - "xform/&nbsp;/ /"
+    # - "xform/^/〔/"
+    # - "xform/$/〕/"
+  tags:
+    - abc
+  tips: all #如只想给单字加滤镜，可改为 char
+
+punctuator:
+  import_preset: symbols
+  half_shape:
+    "e": { commit: "！" }
+    "i": { commit: "？" }
+    "o": { commit: "：" }
+    "u": { commit: "……" }
+    "a": { pair: [ '“', '”' ] }
+
+key_binder:
+  bindings:
+    # - { when: has_menu, accept: "'", send: 1 }
+
+recognizer:
+  patterns:
+    characters: "^[qwrtypsdfghjklzxcvbnm][a-z]?[aeuio]*$"
+    bihua_lookup: "^~[hspnz]?[hspnz]*'?$"
+    pinyin_lookup: "^`[qwtasdfgzxcvbyphjklnm]?[a-z]*'?$"
+
+menu:
+  page_size: 10
