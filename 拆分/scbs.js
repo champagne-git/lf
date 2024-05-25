@@ -57,6 +57,12 @@ const generateOriginalChaiFen = (bhData, bsData, zgData) => {
                 strokes = item.bs === '匚' ? bhItem.slice(1, -1).length : bhItem.slice(2, -1).length
             }
 
+            const specialChar = ['即', '既', '暨']
+
+            if (specialChar.includes(item.char)) {
+                strokes = bhItem.slice(5).length
+            }
+
             if (strokes == 0) {
                 strokes = 1
             }
