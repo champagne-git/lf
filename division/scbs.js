@@ -80,7 +80,7 @@ const generateOriginalChaiFen = (bhData, bsData, zgData) => {
 const main = () => {
     const biHuaData = readFileAndParseData('./bihua.txt')
     const ziGenData = readFileAndParseData('./zigen.txt')
-    const buShouData = readBuShou('./bushou.txt')
+    const buShouData = readBuShou('./bushou_old.txt')
     const chaiFen = generateOriginalChaiFen(biHuaData, buShouData, ziGenData)
     writeToFile(chaiFen, './output_bs.txt')
 }

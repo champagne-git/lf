@@ -275,11 +275,18 @@ encoder:
         rootIndex: 1
       next: s2
   conditions: {}
+  select_keys:
+    - '_'
+    - ','
+    - .
+    - /
   short_code_schemes:
-  - prefix: 2
-  - prefix: 3
-  - prefix: 4
-  - prefix: 5
+    # - prefix: 1
+    #   count: 4
+    - prefix: 2
+    - prefix: 3
+    - prefix: 4
+    - prefix: 5
   rules:
   - length_equal: 2
     formula: AaAbBaBb

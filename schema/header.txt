@@ -7,8 +7,8 @@ version: "0.6"
 sort: original
 columns:
   - text
-  - stem
   - code
+  - stem
 encoder:
   rules:
     - length_equal: 2

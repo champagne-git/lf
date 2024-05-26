@@ -112,7 +112,7 @@ chaifen:
     - "xform/5/乙/"
   tags:
     - abc
-  tips: all #如只想给单字加滤镜，可改为 char
+  tips: char #如只想给单字加滤镜，可改为 char
 
 punctuator:
   import_preset: symbols
