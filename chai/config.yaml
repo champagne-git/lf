@@ -9,8 +9,8 @@ analysis:
   classifier: {}
   degenerator:
     feature:
-      捺: 点
       提: 横
+      捺: 点
     no_cross: false
   selector:
   - 结构完整
@@ -22,243 +22,217 @@ analysis:
 form:
   alphabet: qwertyuiopasdfghjklzxcvbnm
   mapping:
-    儿: f
-    雨: q
-    sm-z: c
-    '5': a
-    sm-zh: g
-    风: x
-    麦: c
-    麥: c
-    工: i
-    人: j
-    亻: j
-    石: t
-    覀: w
-    酉: w
-    攴: k
-    口: i
-    大: i
-    力: w
-    止: d
-    贝: f
-    彳: t
-    示: h
-    礻: h
-    丨: i
-    禾: h
-    sm-j: j
-    sm-m: t
-    厶: l
-    舟: r
-    又: d
-    青: q
-    髟: q
-    立: n
-    斤: l
-    犬: k
-    山: q
-    木: d
-    齿: u
-    王: r
-    方: g
-    鱼: z
-    瓦: r
-    足: q
-    疒: b
-    八: r
-    鼠: r
-    毛: u
-    鸟: n
-    弓: h
-    革: k
-    sm-g: r
-    '4': o
-    黑: l
-    白: k
-    臼: k
-    隹: e
-    艮: l
-    手: g
-    扌: g
-    走: u
-    父: w
-    sm-b: n
-    户: b
-    皮: v
-    牛: x
-    牜: x
-    羽: z
-    矢: a
-    田: b
-    丶: o
-    sm-d: d
-    sm-0: p
-    癶: v
-    sm-ch: z
-    刀: m
-    刂: m
-    豆: a
-    辶: n
-    廴: n
-    耒: x
-    瓜: j
-    韦: q
-    心: w
-    忄: w
-    车: k
-    車: k
-    音: g
-    巛: b
-    囗: h
-    凵: h
-    冂: h
-    匚: h
-    戈: i
-    sm-x: h
-    爿: h
-    辰: h
-    尢: v
-    衣: p
-    衤: p
-    月: s
-    疋: d
-    土: l
-    士: l
-    血: h
-    乙: a
-    门: t
-    巾: z
-    丿: u
-    sm-sh: f
-    日: k
-    页: z
-    麻: b
-    夕: h
-    聿: m
-    爪: j
-    sm-s: b
-    sm-q: q
-    见: g
-    自: o
-    女: m
-    斗: j
-    气: c
-    二: v
-    水: o
-    氵: o
-    一: e
-    赤: z
-    勹: t
-    sm-w: s
-    鼻: x
-    火: y
-    灬: y
-    己: r
-    龙: f
-    : u
-    sm-t: v
-    卜: o
-    耳: x
-    阝: x
-    卩: x
-    厂: c
-    '2': i
-    sm-k: c
-    缶: y
-    比: s
-    片: c
-    纟: c
-    糸: c
-    夂: l
-    目: y
-    豕: i
-    sm-c: p
-    冫: z
-    小: s
-    骨: w
-    米: m
-    '1': e
-    其: k
-    镸: s
-    艹: v
-    屮: v
-    廾: v
-    豸: j
-    sm-f: m
-    羊: s
-    sm-h: w
-    宀: p
-    冖: p
-    歹: p
-    鹿: h
-    几: h
-    辛: e
-    身: c
-    角: v
-    殳: h
-    sm-r: s
-    食: b
-    饣: b
-    攵: y
-    马: p
-    皿: s
-    彡: g
-    丬: s
-    子: h
-    里: s
-    十: l
-    言: f
-    讠: f
-    犭: k
-    彐: r
-    母: n
-    毋: n
-    尸: q
-    罒: e
-    欠: b
-    用: f
-    穴: s
-    寸: c
-    sm-l: l
-    金: a
-    钅: a
-    卤: h
-    广: b
-    舌: u
-    sm-y: k
+    耳: r
+    瓜: v
+    其: p
+    手: f
+    夕: e
+    耒: k
+    气: k
+    欠: z
+    舟: e
+    音: n
+    齿: g
+    身: t
+    木: q
     '3': u
-    sm-p: y
-    文: f
-    亠: f
-    虫: e
-    鬼: l
-    sm-n: x
-    虍: s
-    业: l
+    角: r
+    车: y
+    sm-sh: f
+    文: s
+    sm-x: j
+    艮: u
+    卜: p
+    sm-0: p
+    缶: c
+    几: c
+    鼠: l
+    聿: d
+    自: k
+    毛: s
+    sm-p: p
+    厂: p
+    sm-l: n
+    大: u
+    立: n
+    力: g
+    比: k
+    舌: j
+    寸: k
+    心: e
+    癶: l
+    犬: j
+    '1': e
+    石: g
+    女: m
+    骨: o
+    片: s
+    土: l
+    韦: j
+    革: v
+    小: c
+    皮: p
+    囗: l
+    sm-h: c
+    sm-w: m
+    '4': o
+    : m
+    用: e
+    镸: z
+    歹: t
+    食: i
+    夂: p
+    斗: g
+    血: d
+    丬: o
+    勹: a
+    彡: z
+    雨: f
+    鼻: v
+    贝: r
+    sm-b: h
+    示: e
+    sm-zh: s
+    麦: k
+    sm-y: k
+    赤: j
+    sm-k: z
+    戈: d
+    里: e
+    艹: u
+    方: l
+    口: i
+    纟: t
+    麻: t
+    丨: t
+    丶: c
+    彐: g
+    罒: h
+    门: l
+    十: y
+    母: k
+    sm-r: g
+    黑: o
+    瓦: q
+    又: k
+    目: h
+    卤: n
+    辶: v
+    覀: f
+    隹: i
+    足: c
+    巛: s
+    矢: q
+    米: z
+    一: d
+    己: x
+    见: f
+    水: b
+    鸟: c
+    牛: r
+    sm-c: r
+    sm-d: d
+    鬼: j
+    爿: p
+    sm-m: b
+    辰: i
+    八: h
+    工: i
+    犭: o
+    户: c
+    刀: o
+    人: j
+    日: o
+    山: x
+    sm-g: v
+    sm-j: l
+    父: j
+    虍: c
+    '5': a
+    攵: n
+    sm-f: r
+    尸: e
+    sm-t: x
+    sm-q: t
+    龙: d
+    豕: i
+    疋: e
+    厶: n
+    攴: e
+    辛: d
+    穴: c
+    月: s
+    冫: m
+    王: x
+    sm-s: y
+    业: b
+    sm-n: q
+    页: y
+    衣: w
+    羽: d
+    虫: v
+    止: u
+    白: i
+    sm-ch: g
+    宀: w
+    二: g
+    风: o
+    丿: h
+    乙: w
+    尢: c
+    豆: r
+    爪: k
+    豸: c
+    弓: s
+    斤: s
+    走: m
+    '2': i
+    儿: t
+    广: y
+    田: d
+    sm-z: w
+    金: k
+    马: c
+    殳: s
+    彳: n
+    巾: z
+    鹿: i
+    禾: k
+    子: i
+    羊: p
+    疒: l
+    言: a
+    鱼: h
+    青: w
+    火: g
   grouping: {}
 encoder:
   max_length: 6
   auto_select_length: 2
   sources:
-    s0:
-      object: null
-      next: s1
-    s4:
-      object:
-        type: 字根
-        rootIndex: 4
-      next: s5
-    s5:
-      object:
-        type: 字根
-        rootIndex: 5
-      next: s6
     s6:
       object:
         type: 字根
         rootIndex: -1
       next: null
+    s1:
+      object:
+        type: 字根
+        rootIndex: 1
+      next: s2
+    s4:
+      object:
+        type: 字根
+        rootIndex: 4
+      next: s5
+    s0:
+      object: null
+      next: s1
+    s5:
+      object:
+        type: 字根
+        rootIndex: 5
+      next: s6
     s2:
       object:
         type: 字根
@@ -269,24 +243,12 @@ encoder:
         type: 字根
         rootIndex: 3
       next: s4
-    s1:
-      object:
-        type: 字根
-        rootIndex: 1
-      next: s2
   conditions: {}
-  select_keys:
-    - '_'
-    - ','
-    - .
-    - /
   short_code_schemes:
-    # - prefix: 1
-    #   count: 4
-    - prefix: 2
-    - prefix: 3
-    - prefix: 4
-    - prefix: 5
+  - prefix: 2
+  - prefix: 3
+  - prefix: 4
+  - prefix: 5
   rules:
   - length_equal: 2
     formula: AaAbBaBb
@@ -302,6 +264,11 @@ optimization:
       duplication: 1.0
     characters_short:
       tiers:
+      - top: 500
+        duplication: 1.0
+        levels:
+        - length: 2
+          frequency: -10.0
       - duplication: 10.0
       duplication: 10.0
       key_distribution: 10.0
@@ -316,10 +283,120 @@ optimization:
   constraints:
     elements:
     - element: 乙
+      keys:
+      - 'q'
+      - 'w'
+      - 'r'
+      - 't'
+      - 'y'
+      - 'p'
+      - 's'
+      - 'd'
+      - 'f'
+      - 'g'
+      - 'h'
+      - 'j'
+      - 'k'
+      - 'l'
+      - 'z'
+      - 'x'
+      - 'c'
+      - 'v'
+      - 'b'
+      - 'n'
+      - 'm'
     - element: 一
+      keys:
+      - 'q'
+      - 'w'
+      - 'r'
+      - 't'
+      - 'y'
+      - 'p'
+      - 's'
+      - 'd'
+      - 'f'
+      - 'g'
+      - 'h'
+      - 'j'
+      - 'k'
+      - 'l'
+      - 'z'
+      - 'x'
+      - 'c'
+      - 'v'
+      - 'b'
+      - 'n'
+      - 'm'
     - element: 丿
+      keys:
+      - 'q'
+      - 'w'
+      - 'r'
+      - 't'
+      - 'y'
+      - 'p'
+      - 's'
+      - 'd'
+      - 'f'
+      - 'g'
+      - 'h'
+      - 'j'
+      - 'k'
+      - 'l'
+      - 'z'
+      - 'x'
+      - 'c'
+      - 'v'
+      - 'b'
+      - 'n'
+      - 'm'
     - element: 丨
+      keys:
+      - 'q'
+      - 'w'
+      - 'r'
+      - 't'
+      - 'y'
+      - 'p'
+      - 's'
+      - 'd'
+      - 'f'
+      - 'g'
+      - 'h'
+      - 'j'
+      - 'k'
+      - 'l'
+      - 'z'
+      - 'x'
+      - 'c'
+      - 'v'
+      - 'b'
+      - 'n'
+      - 'm'
     - element: 丶
+      keys:
+      - 'q'
+      - 'w'
+      - 'r'
+      - 't'
+      - 'y'
+      - 'p'
+      - 's'
+      - 'd'
+      - 'f'
+      - 'g'
+      - 'h'
+      - 'j'
+      - 'k'
+      - 'l'
+      - 'z'
+      - 'x'
+      - 'c'
+      - 'v'
+      - 'b'
+      - 'n'
+      - 'm'
     - element: '1'
     - element: '2'
     - element: '3'
@@ -879,7 +956,3 @@ optimization:
       - 'm'
   metaheuristic:
     algorithm: SimulatedAnnealing
-    parameters:
-      t_max: 1.51
-      t_min: 2.88e-6
-      steps: 8000000

@@ -38,7 +38,7 @@ const writeToFile = (data, filePath) => {
             console.error('写入文件时出错:', err)
             return
         }
-        console.log('文本文件已成功导出！')
+        console.log('文本文件已成功导出！'+ filePath)
     })
 }
 
