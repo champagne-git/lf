@@ -105,7 +105,7 @@ const generateGuiBing = cf => {
 
 const main = () => {
     const biHuaData = readFileAndParseData('./bihua.txt')
-    const pinYinData = readFileAndParseData('./pinyin.txt')
+    const pinYinData = readFileAndParseData('./pinyin_gai.txt')
     const ziGenData = readFileAndParseData('./zigen.txt')
     const buShouData = readBuShou('./bushou.txt')
     const chaiFen = generateOriginalChaiFen(biHuaData, buShouData, pinYinData, ziGenData)

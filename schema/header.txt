@@ -18,3 +18,15 @@ encoder:
     - length_in_range: [4, 10]
       formula: "AaBaAdCaZa"
 ...
+
+# 无理
+那	nhae
+nc [无理]	nhae
+快	kgaeu
+kx [无理]	kgaeu
+不	bdui
+fl [无理]	bdui
+时	sneio
+sk [无理]	sneio
+而	cdui
+ck [无理]	cdui

@@ -9,8 +9,8 @@ analysis:
   classifier: {}
   degenerator:
     feature:
-      提: 横
       捺: 点
+      提: 横
     no_cross: false
   selector:
   - 结构完整
@@ -22,212 +22,194 @@ analysis:
 form:
   alphabet: qwertyuiopasdfghjklzxcvbnm
   mapping:
-    耳: r
-    瓜: v
-    其: p
-    手: f
-    夕: e
-    耒: k
-    气: k
-    欠: z
-    舟: e
-    音: n
-    齿: g
-    身: t
-    木: q
-    '3': u
-    角: r
-    车: y
-    sm-sh: f
-    文: s
-    sm-x: j
-    艮: u
-    卜: p
-    sm-0: p
-    缶: c
-    几: c
-    鼠: l
-    聿: d
-    自: k
-    毛: s
-    sm-p: p
-    厂: p
-    sm-l: n
-    大: u
-    立: n
-    力: g
-    比: k
-    舌: j
-    寸: k
-    心: e
-    癶: l
-    犬: j
-    '1': e
-    石: g
-    女: m
-    骨: o
-    片: s
-    土: l
-    韦: j
-    革: v
-    小: c
-    皮: p
-    囗: l
-    sm-h: c
-    sm-w: m
-    '4': o
-    : m
-    用: e
-    镸: z
-    歹: t
+    sm-m: m
+    sm-k: k
+    方: o
+    耳: h
+    疋: d
+    大: g
+    子: m
     食: i
-    夂: p
-    斗: g
-    血: d
-    丬: o
-    勹: a
-    彡: z
-    雨: f
-    鼻: v
-    贝: r
-    sm-b: h
-    示: e
-    sm-zh: s
-    麦: k
-    sm-y: k
-    赤: j
-    sm-k: z
-    戈: d
-    里: e
-    艹: u
-    方: l
-    口: i
-    纟: t
-    麻: t
-    丨: t
-    丶: c
-    彐: g
-    罒: h
-    门: l
-    十: y
-    母: k
-    sm-r: g
-    黑: o
-    瓦: q
-    又: k
-    目: h
-    卤: n
-    辶: v
-    覀: f
-    隹: i
-    足: c
-    巛: s
-    矢: q
-    米: z
-    一: d
-    己: x
-    见: f
-    水: b
-    鸟: c
-    牛: r
-    sm-c: r
-    sm-d: d
-    鬼: j
-    爿: p
-    sm-m: b
-    辰: i
-    八: h
-    工: i
-    犭: o
-    户: c
-    刀: o
-    人: j
-    日: o
-    山: x
-    sm-g: v
-    sm-j: l
-    父: j
-    虍: c
-    '5': a
-    攵: n
-    sm-f: r
-    尸: e
-    sm-t: x
-    sm-q: t
-    龙: d
-    豕: i
-    疋: e
-    厶: n
-    攴: e
-    辛: d
-    穴: c
-    月: s
-    冫: m
-    王: x
-    sm-s: y
-    业: b
-    sm-n: q
-    页: y
-    衣: w
-    羽: d
-    虫: v
-    止: u
+    sm-q: q
+    石: x
+    攵: s
+    皮: e
+    sm-s: s
+    宀: p
+    乙: b
+    巛: f
+    又: d
+    sm-l: l
     白: i
-    sm-ch: g
-    宀: w
-    二: g
-    风: o
-    丿: h
-    乙: w
-    尢: c
-    豆: r
-    爪: k
-    豸: c
-    弓: s
-    斤: s
-    走: m
+    艮: m
+    金: n
+    足: z
+    其: k
+    土: j
+    血: k
+    '1': e
+    片: b
+    心: g
+    瓦: w
+    厶: f
+    穴: z
+    爿: h
+    辛: i
+    里: c
+    舌: i
+    文: a
+    尸: d
+    八: f
+    毛: z
+    鼻: i
+    王: f
+    夕: r
+    sm-p: p
+    目: g
+    黑: e
+    人: l
+    田: r
+    斤: z
+    自: i
+    耒: e
+    木: r
+    sm-f: f
+    : y
+    彐: w
+    麻: d
+    小: s
+    赤: e
+    骨: k
+    角: d
+    '3': u
+    比: o
+    缶: j
+    罒: x
+    斗: d
     '2': i
-    儿: t
-    广: y
-    田: d
-    sm-z: w
-    金: k
-    马: c
-    殳: s
+    儿: w
+    二: j
+    广: t
+    业: h
+    音: e
+    癶: n
+    '5': a
+    辰: i
+    羽: f
+    雨: x
+    麦: p
+    弓: a
     彳: n
-    巾: z
-    鹿: i
-    禾: k
-    子: i
-    羊: p
-    疒: l
-    言: a
-    鱼: h
-    青: w
-    火: g
+    一: d
+    卜: o
+    女: a
+    欠: o
+    走: y
+    几: f
+    sm-t: t
+    sm-ch: y
+    刀: m
+    鼠: o
+    青: u
+    己: q
+    巾: c
+    sm-w: w
+    矢: p
+    覀: c
+    门: o
+    殳: v
+    勹: b
+    身: y
+    '4': o
+    纟: c
+    言: i
+    冫: y
+    囗: o
+    鸟: q
+    止: n
+    丬: g
+    爪: g
+    镸: n
+    sm-c: c
+    力: e
+    韦: q
+    页: m
+    鹿: r
+    工: u
+    sm-r: r
+    贝: h
+    牛: h
+    艹: f
+    户: r
+    母: t
+    攴: j
+    口: w
+    示: o
+    豆: j
+    丨: p
+    sm-j: j
+    瓜: i
+    衣: z
+    立: q
+    丿: t
+    丶: k
+    车: b
+    见: x
+    用: f
+    米: v
+    舟: v
+    羊: c
+    sm-g: g
+    sm-d: d
+    父: o
+    豕: r
+    鱼: d
+    sm-yi: k
+    革: g
+    月: s
+    风: k
+    夂: y
+    sm-h: h
+    sm-z: z
+    马: s
+    歹: t
+    水: e
+    尢: e
+    虍: d
+    sm-b: b
+    戈: i
+    气: n
+    火: r
+    sm-n: n
+    辶: k
+    彡: u
+    sm-sh: s
+    龙: c
+    sm-zh: v
+    犬: i
+    卤: j
+    厂: o
+    虫: k
+    寸: i
+    山: q
+    齿: e
+    sm-x: x
+    sm-yu: r
+    sm-0: c
+    疒: s
+    十: v
+    日: n
+    隹: j
+    聿: i
+    鬼: e
+    豸: d
+    禾: g
+    手: u
   grouping: {}
 encoder:
   max_length: 6
   auto_select_length: 2
   sources:
-    s6:
-      object:
-        type: 字根
-        rootIndex: -1
-      next: null
-    s1:
-      object:
-        type: 字根
-        rootIndex: 1
-      next: s2
-    s4:
-      object:
-        type: 字根
-        rootIndex: 4
-      next: s5
-    s0:
-      object: null
-      next: s1
     s5:
       object:
         type: 字根
@@ -238,11 +220,29 @@ encoder:
         type: 字根
         rootIndex: 2
       next: s3
+    s1:
+      object:
+        type: 字根
+        rootIndex: 1
+      next: s2
+    s6:
+      object:
+        type: 字根
+        rootIndex: -1
+      next: null
+    s0:
+      object: null
+      next: s1
     s3:
       object:
         type: 字根
         rootIndex: 3
       next: s4
+    s4:
+      object:
+        type: 字根
+        rootIndex: 4
+      next: s5
   conditions: {}
   short_code_schemes:
   - prefix: 2
@@ -272,7 +272,7 @@ optimization:
       - duplication: 10.0
       duplication: 10.0
       key_distribution: 10.0
-      pair_equivalence: 10.0
+      pair_equivalence: 20.0
       levels:
       - length: 2
         frequency: -10.0
@@ -403,465 +403,24 @@ optimization:
     - element: '4'
     - element: '5'
     - element: sm-q
-      keys:
-      - 'q'
-      - 'w'
-      - 'r'
-      - 't'
-      - 'y'
-      - 'p'
-      - 's'
-      - 'd'
-      - 'f'
-      - 'g'
-      - 'h'
-      - 'j'
-      - 'k'
-      - 'l'
-      - 'z'
-      - 'x'
-      - 'c'
-      - 'v'
-      - 'b'
-      - 'n'
-      - 'm'
     - element: sm-w
-      keys:
-      - 'q'
-      - 'w'
-      - 'r'
-      - 't'
-      - 'y'
-      - 'p'
-      - 's'
-      - 'd'
-      - 'f'
-      - 'g'
-      - 'h'
-      - 'j'
-      - 'k'
-      - 'l'
-      - 'z'
-      - 'x'
-      - 'c'
-      - 'v'
-      - 'b'
-      - 'n'
-      - 'm'
     - element: sm-r
-      keys:
-      - 'q'
-      - 'w'
-      - 'r'
-      - 't'
-      - 'y'
-      - 'p'
-      - 's'
-      - 'd'
-      - 'f'
-      - 'g'
-      - 'h'
-      - 'j'
-      - 'k'
-      - 'l'
-      - 'z'
-      - 'x'
-      - 'c'
-      - 'v'
-      - 'b'
-      - 'n'
-      - 'm'
     - element: sm-t
-      keys:
-      - 'q'
-      - 'w'
-      - 'r'
-      - 't'
-      - 'y'
-      - 'p'
-      - 's'
-      - 'd'
-      - 'f'
-      - 'g'
-      - 'h'
-      - 'j'
-      - 'k'
-      - 'l'
-      - 'z'
-      - 'x'
-      - 'c'
-      - 'v'
-      - 'b'
-      - 'n'
-      - 'm'
-    - element: sm-y
-      keys:
-      - 'q'
-      - 'w'
-      - 'r'
-      - 't'
-      - 'y'
-      - 'p'
-      - 's'
-      - 'd'
-      - 'f'
-      - 'g'
-      - 'h'
-      - 'j'
-      - 'k'
-      - 'l'
-      - 'z'
-      - 'x'
-      - 'c'
-      - 'v'
-      - 'b'
-      - 'n'
-      - 'm'
     - element: sm-p
-      keys:
-      - 'q'
-      - 'w'
-      - 'r'
-      - 't'
-      - 'y'
-      - 'p'
-      - 's'
-      - 'd'
-      - 'f'
-      - 'g'
-      - 'h'
-      - 'j'
-      - 'k'
-      - 'l'
-      - 'z'
-      - 'x'
-      - 'c'
-      - 'v'
-      - 'b'
-      - 'n'
-      - 'm'
     - element: sm-s
-      keys:
-      - 'q'
-      - 'w'
-      - 'r'
-      - 't'
-      - 'y'
-      - 'p'
-      - 's'
-      - 'd'
-      - 'f'
-      - 'g'
-      - 'h'
-      - 'j'
-      - 'k'
-      - 'l'
-      - 'z'
-      - 'x'
-      - 'c'
-      - 'v'
-      - 'b'
-      - 'n'
-      - 'm'
     - element: sm-d
-      keys:
-      - 'q'
-      - 'w'
-      - 'r'
-      - 't'
-      - 'y'
-      - 'p'
-      - 's'
-      - 'd'
-      - 'f'
-      - 'g'
-      - 'h'
-      - 'j'
-      - 'k'
-      - 'l'
-      - 'z'
-      - 'x'
-      - 'c'
-      - 'v'
-      - 'b'
-      - 'n'
-      - 'm'
     - element: sm-f
-      keys:
-      - 'q'
-      - 'w'
-      - 'r'
-      - 't'
-      - 'y'
-      - 'p'
-      - 's'
-      - 'd'
-      - 'f'
-      - 'g'
-      - 'h'
-      - 'j'
-      - 'k'
-      - 'l'
-      - 'z'
-      - 'x'
-      - 'c'
-      - 'v'
-      - 'b'
-      - 'n'
-      - 'm'
     - element: sm-g
-      keys:
-      - 'q'
-      - 'w'
-      - 'r'
-      - 't'
-      - 'y'
-      - 'p'
-      - 's'
-      - 'd'
-      - 'f'
-      - 'g'
-      - 'h'
-      - 'j'
-      - 'k'
-      - 'l'
-      - 'z'
-      - 'x'
-      - 'c'
-      - 'v'
-      - 'b'
-      - 'n'
-      - 'm'
     - element: sm-h
-      keys:
-      - 'q'
-      - 'w'
-      - 'r'
-      - 't'
-      - 'y'
-      - 'p'
-      - 's'
-      - 'd'
-      - 'f'
-      - 'g'
-      - 'h'
-      - 'j'
-      - 'k'
-      - 'l'
-      - 'z'
-      - 'x'
-      - 'c'
-      - 'v'
-      - 'b'
-      - 'n'
-      - 'm'
     - element: sm-j
-      keys:
-      - 'q'
-      - 'w'
-      - 'r'
-      - 't'
-      - 'y'
-      - 'p'
-      - 's'
-      - 'd'
-      - 'f'
-      - 'g'
-      - 'h'
-      - 'j'
-      - 'k'
-      - 'l'
-      - 'z'
-      - 'x'
-      - 'c'
-      - 'v'
-      - 'b'
-      - 'n'
-      - 'm'
     - element: sm-k
-      keys:
-      - 'q'
-      - 'w'
-      - 'r'
-      - 't'
-      - 'y'
-      - 'p'
-      - 's'
-      - 'd'
-      - 'f'
-      - 'g'
-      - 'h'
-      - 'j'
-      - 'k'
-      - 'l'
-      - 'z'
-      - 'x'
-      - 'c'
-      - 'v'
-      - 'b'
-      - 'n'
-      - 'm'
     - element: sm-l
-      keys:
-      - 'q'
-      - 'w'
-      - 'r'
-      - 't'
-      - 'y'
-      - 'p'
-      - 's'
-      - 'd'
-      - 'f'
-      - 'g'
-      - 'h'
-      - 'j'
-      - 'k'
-      - 'l'
-      - 'z'
-      - 'x'
-      - 'c'
-      - 'v'
-      - 'b'
-      - 'n'
-      - 'm'
     - element: sm-z
-      keys:
-      - 'q'
-      - 'w'
-      - 'r'
-      - 't'
-      - 'y'
-      - 'p'
-      - 's'
-      - 'd'
-      - 'f'
-      - 'g'
-      - 'h'
-      - 'j'
-      - 'k'
-      - 'l'
-      - 'z'
-      - 'x'
-      - 'c'
-      - 'v'
-      - 'b'
-      - 'n'
-      - 'm'
     - element: sm-x
-      keys:
-      - 'q'
-      - 'w'
-      - 'r'
-      - 't'
-      - 'y'
-      - 'p'
-      - 's'
-      - 'd'
-      - 'f'
-      - 'g'
-      - 'h'
-      - 'j'
-      - 'k'
-      - 'l'
-      - 'z'
-      - 'x'
-      - 'c'
-      - 'v'
-      - 'b'
-      - 'n'
-      - 'm'
     - element: sm-c
-      keys:
-      - 'q'
-      - 'w'
-      - 'r'
-      - 't'
-      - 'y'
-      - 'p'
-      - 's'
-      - 'd'
-      - 'f'
-      - 'g'
-      - 'h'
-      - 'j'
-      - 'k'
-      - 'l'
-      - 'z'
-      - 'x'
-      - 'c'
-      - 'v'
-      - 'b'
-      - 'n'
-      - 'm'
     - element: sm-b
-      keys:
-      - 'q'
-      - 'w'
-      - 'r'
-      - 't'
-      - 'y'
-      - 'p'
-      - 's'
-      - 'd'
-      - 'f'
-      - 'g'
-      - 'h'
-      - 'j'
-      - 'k'
-      - 'l'
-      - 'z'
-      - 'x'
-      - 'c'
-      - 'v'
-      - 'b'
-      - 'n'
-      - 'm'
     - element: sm-n
-      keys:
-      - 'q'
-      - 'w'
-      - 'r'
-      - 't'
-      - 'y'
-      - 'p'
-      - 's'
-      - 'd'
-      - 'f'
-      - 'g'
-      - 'h'
-      - 'j'
-      - 'k'
-      - 'l'
-      - 'z'
-      - 'x'
-      - 'c'
-      - 'v'
-      - 'b'
-      - 'n'
-      - 'm'
     - element: sm-m
-      keys:
-      - 'q'
-      - 'w'
-      - 'r'
-      - 't'
-      - 'y'
-      - 'p'
-      - 's'
-      - 'd'
-      - 'f'
-      - 'g'
-      - 'h'
-      - 'j'
-      - 'k'
-      - 'l'
-      - 'z'
-      - 'x'
-      - 'c'
-      - 'v'
-      - 'b'
-      - 'n'
-      - 'm'
     - element: sm-sh
       keys:
       - 'q'
@@ -878,59 +437,23 @@ optimization:
       - 'j'
       - 'k'
       - 'l'
-      - 'z'
       - 'x'
-      - 'c'
       - 'v'
       - 'b'
       - 'n'
       - 'm'
     - element: sm-ch
       keys:
-      - 'q'
-      - 'w'
-      - 'r'
-      - 't'
       - 'y'
-      - 'p'
-      - 's'
-      - 'd'
-      - 'f'
-      - 'g'
-      - 'h'
-      - 'j'
-      - 'k'
-      - 'l'
-      - 'z'
-      - 'x'
-      - 'c'
-      - 'v'
-      - 'b'
-      - 'n'
-      - 'm'
     - element: sm-zh
       keys:
-      - 'q'
-      - 'w'
-      - 'r'
-      - 't'
-      - 'y'
-      - 'p'
-      - 's'
-      - 'd'
-      - 'f'
-      - 'g'
-      - 'h'
-      - 'j'
-      - 'k'
-      - 'l'
-      - 'z'
-      - 'x'
-      - 'c'
       - 'v'
-      - 'b'
-      - 'n'
-      - 'm'
+    - element: sm-yi
+      keys:
+      - 'k'
+    - element: sm-yu
+      keys:
+      - 'r'
     - element: sm-0
       keys:
       - 'q'
