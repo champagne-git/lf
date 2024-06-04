@@ -4334,6 +4334,7 @@
 舐	sjua
 谔	rfia
 忻	xouue
+瞭	lteu
 咻	xsuie
 唑	zsuo
 鹑	cto
@@ -5292,7 +5293,7 @@
 舢	scia
 趸	daea
 驷	sfiau
-鹩	lteu
+鹩	lteuo
 嗉	ssee
 笊	vyuu
 芫	kiee
@@ -6762,12 +6763,19 @@
 鼽	qiuaa
 齄	vieiu
 龠	ylei
+啫	vseieu
 啰	lsiai
 嗞	zsou
 嚱	xsie
+嫪	lwao
 嬛	hwia
 屌	dwiaei
+彧	yria
+槃	pkuu
+毐	rjeie
 濛	meeiio
 玦	jiaeuo
+珅	siiaee
 臜	rwuei
+镚	bkia
 齁	hiuai

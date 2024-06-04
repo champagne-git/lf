@@ -6771,3 +6771,11 @@
 嗞	sm-z
 玦	sm-j
 齁	sm-h
+槃	sm-p
+瞭	sm-l
+啫	sm-zh
+镚	sm-b
+珅	sm-sh
+嫪	sm-l
+毐	sm-0
+彧	sm-yu
