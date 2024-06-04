@@ -9,8 +9,8 @@ analysis:
   classifier: {}
   degenerator:
     feature:
-      捺: 点
       提: 横
+      捺: 点
     no_cross: false
   selector:
   - 结构完整
@@ -22,214 +22,216 @@ analysis:
 form:
   alphabet: qwertyuiopasdfghjklzxcvbnm
   mapping:
-    sm-m: m
-    sm-k: k
-    方: o
-    耳: h
-    疋: d
-    大: g
-    子: m
-    食: i
-    sm-q: q
-    石: x
-    攵: s
-    皮: e
-    sm-s: s
-    宀: p
-    乙: b
-    巛: f
-    又: d
-    sm-l: l
-    白: i
-    艮: m
-    金: n
-    足: z
-    其: k
-    土: j
-    血: k
-    '1': e
-    片: b
-    心: g
-    瓦: w
-    厶: f
-    穴: z
-    爿: h
-    辛: i
-    里: c
-    舌: i
-    文: a
-    尸: d
-    八: f
-    毛: z
+    骨: n
+    己: a
+    丶: n
     鼻: i
-    王: f
-    夕: r
-    sm-p: p
-    目: g
-    黑: e
-    人: l
-    田: r
-    斤: z
-    自: i
-    耒: e
-    木: r
-    sm-f: f
-    : y
-    彐: w
-    麻: d
-    小: s
-    赤: e
-    骨: k
-    角: d
-    '3': u
-    比: o
-    缶: j
-    罒: x
-    斗: d
-    '2': i
-    儿: w
-    二: j
-    广: t
-    业: h
-    音: e
-    癶: n
-    '5': a
-    辰: i
-    羽: f
-    雨: x
-    麦: p
-    弓: a
-    彳: n
-    一: d
-    卜: o
-    女: a
-    欠: o
-    走: y
-    几: f
-    sm-t: t
-    sm-ch: y
-    刀: m
-    鼠: o
-    青: u
-    己: q
-    巾: c
-    sm-w: w
-    矢: p
-    覀: c
-    门: o
-    殳: v
-    勹: b
-    身: y
+    米: z
     '4': o
-    纟: c
-    言: i
-    冫: y
-    囗: o
-    鸟: q
-    止: n
-    丬: g
-    爪: g
-    镸: n
-    sm-c: c
-    力: e
-    韦: q
-    页: m
-    鹿: r
-    工: u
-    sm-r: r
-    贝: h
-    牛: h
-    艹: f
-    户: r
-    母: t
-    攴: j
-    口: w
-    示: o
-    豆: j
-    丨: p
-    sm-j: j
-    瓜: i
-    衣: z
-    立: q
-    丿: t
-    丶: k
-    车: b
-    见: x
-    用: f
-    米: v
-    舟: v
-    羊: c
-    sm-g: g
+    镸: j
+    A: y
+    '3': u
+    麦: g
+    爿: y
+    片: d
+    又: h
+    其: h
+    食: s
+    宀: j
     sm-d: d
-    父: o
-    豕: r
-    鱼: d
+    wl-n: n
+    火: u
+    sm-c: c
+    疒: a
+    攴: r
+    舌: j
+    尸: w
+    龙: d
     sm-yi: k
-    革: g
-    月: s
-    风: k
-    夂: y
-    sm-h: h
-    sm-z: z
-    马: s
-    歹: t
-    水: e
-    尢: e
-    虍: d
+    见: e
+    : y
+    鸟: t
+    B: k
+    瓜: d
+    鼠: p
+    鱼: c
+    自: n
+    sm-m: m
+    sm-j: j
+    癶: j
+    广: s
+    丬: b
+    殳: d
+    方: k
+    sm-r: r
+    日: m
+    示: v
+    父: l
+    犬: f
+    言: f
+    sm-g: g
+    页: h
+    羽: q
+    土: j
+    山: p
+    舟: c
+    wl-g: g
+    sm-t: t
+    勹: d
+    sm-k: k
+    豕: q
+    田: r
+    文: t
+    sm-l: l
+    足: a
+    厂: b
+    wl-i: i
+    户: a
+    wl-k: k
+    sm-w: w
+    艮: v
+    止: h
+    比: n
+    sm-p: p
+    巾: b
+    赤: i
+    禾: v
+    '2': i
+    卜: u
+    攵: u
+    王: i
+    辛: b
+    羊: k
+    巛: h
+    耒: y
+    音: r
+    鹿: f
     sm-b: b
-    戈: i
-    气: n
-    火: r
+    欠: k
+    E: a
+    乙: d
+    矢: p
+    人: l
+    身: n
+    '1': e
+    黑: r
+    厶: c
+    wl-f: f
+    金: k
+    寸: p
+    sm-yu: y
+    弓: q
+    虍: r
+    齿: f
+    马: f
+    手: o
+    彡: z
+    业: e
+    缶: j
+    水: e
+    木: k
+    衣: j
+    豆: j
+    辰: n
+    立: w
+    '5': a
+    几: r
+    夂: u
+    sm-f: f
+    麻: r
+    尢: w
+    走: u
+    wl-o: o
+    女: w
+    虫: h
+    歹: q
+    二: y
     sm-n: n
-    辶: k
-    彡: u
-    sm-sh: s
-    龙: c
-    sm-zh: v
-    犬: i
-    卤: j
-    厂: o
-    虫: k
-    寸: i
-    山: q
-    齿: e
+    耳: g
+    风: j
+    卤: r
+    丿: n
+    鬼: g
+    母: b
+    瓦: w
+    青: c
+    韦: q
+    心: o
+    穴: p
+    月: w
+    子: h
+    辶: i
+    sm-s: s
+    八: p
+    冫: c
+    疋: a
+    囗: g
+    车: d
+    刀: m
+    白: c
+    儿: i
+    小: j
+    皮: g
+    覀: c
+    D: v
+    门: g
+    一: r
+    里: c
+    丨: n
+    夕: w
+    斗: d
+    戈: k
+    sm-q: q
+    彳: p
+    牛: k
+    sm-h: h
+    血: r
+    雨: x
+    革: i
+    石: x
+    爪: h
+    工: o
     sm-x: x
-    sm-yu: r
-    sm-0: c
-    疒: s
-    十: v
-    日: n
-    隹: j
-    聿: i
-    鬼: e
-    豸: d
-    禾: g
-    手: u
+    C: i
+    sm-0: r
+    用: b
+    豸: g
+    气: i
+    聿: v
+    大: n
+    毛: v
+    sm-z: z
+    艹: i
+    sm-sh: s
+    纟: d
+    十: a
+    罒: y
+    隹: q
+    sm-ch: c
+    彐: g
+    力: e
+    sm-zh: v
+    贝: z
+    角: x
+    斤: h
+    目: t
+    口: s
+    wl-s: s
   grouping: {}
 encoder:
   max_length: 6
   auto_select_length: 2
   sources:
-    s5:
-      object:
-        type: 字根
-        rootIndex: 5
-      next: s6
-    s2:
-      object:
-        type: 字根
-        rootIndex: 2
-      next: s3
-    s1:
-      object:
-        type: 字根
-        rootIndex: 1
-      next: s2
     s6:
       object:
         type: 字根
         rootIndex: -1
       next: null
+    s5:
+      object:
+        type: 字根
+        rootIndex: 5
+      next: s6
     s0:
       object: null
       next: s1
@@ -238,11 +240,21 @@ encoder:
         type: 字根
         rootIndex: 3
       next: s4
+    s2:
+      object:
+        type: 字根
+        rootIndex: 2
+      next: s3
     s4:
       object:
         type: 字根
         rootIndex: 4
       next: s5
+    s1:
+      object:
+        type: 字根
+        rootIndex: 1
+      next: s2
   conditions: {}
   short_code_schemes:
   - prefix: 2
@@ -268,17 +280,23 @@ optimization:
         duplication: 1.0
         levels:
         - length: 2
-          frequency: -10.0
-      - duplication: 10.0
-      duplication: 10.0
-      key_distribution: 10.0
+          frequency: 0.0
+        - length: 3
+          frequency: 3.0
+        - length: 4
+          frequency: 10.0
+      - duplication: 1.0
+      duplication: 1.0
+      key_distribution: 5.0
       pair_equivalence: 20.0
       levels:
       - length: 2
-        frequency: -10.0
+        frequency: -5.0
       - length: 3
         frequency: 1.0
       - length: 4
+        frequency: 5.0
+      - length: 5
         frequency: 10.0
   constraints:
     elements:
@@ -423,28 +441,10 @@ optimization:
     - element: sm-m
     - element: sm-sh
       keys:
-      - 'q'
-      - 'w'
-      - 'r'
-      - 't'
-      - 'y'
-      - 'p'
       - 's'
-      - 'd'
-      - 'f'
-      - 'g'
-      - 'h'
-      - 'j'
-      - 'k'
-      - 'l'
-      - 'x'
-      - 'v'
-      - 'b'
-      - 'n'
-      - 'm'
     - element: sm-ch
       keys:
-      - 'y'
+      - 'c'
     - element: sm-zh
       keys:
       - 'v'
@@ -453,29 +453,30 @@ optimization:
       - 'k'
     - element: sm-yu
       keys:
-      - 'r'
+      - 'y'
     - element: sm-0
       keys:
-      - 'q'
-      - 'w'
       - 'r'
-      - 't'
-      - 'y'
-      - 'p'
-      - 's'
-      - 'd'
-      - 'f'
-      - 'g'
-      - 'h'
-      - 'j'
+    - element: wl-k
+      keys:
       - 'k'
-      - 'l'
-      - 'z'
-      - 'x'
-      - 'c'
-      - 'v'
-      - 'b'
+    - element: wl-o
+      keys:
+      - 'o'
+    - element: wl-f
+      keys:
+      - 'f'
+    - element: wl-i
+      keys:
+      - 'i'
+    - element: wl-g
+      keys:
+      - 'g'
+    - element: wl-n
+      keys:
       - 'n'
-      - 'm'
+    - element: wl-s
+      keys:
+      - 's'
   metaheuristic:
     algorithm: SimulatedAnnealing
