@@ -1585,7 +1585,7 @@
 浓	neo
 芳	fioe
 稿	gv
-竹	vnei
+竹	vyi
 腹	fwu
 跌	dau
 逻	liia
@@ -1975,7 +1975,7 @@
 逆	nio
 脆	cwu
 喘	csiai
-罩	vyi
+罩	vyie
 卜	buo
 炉	luoa
 柴	ckie
@@ -2911,7 +2911,7 @@
 廓	ksoei
 讳	hfee
 啼	tso
-乍	vneie
+乍	vnei
 瓣	bbuu
 矫	jpue
 枉	wkee

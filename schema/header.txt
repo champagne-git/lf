@@ -18,3 +18,8 @@ encoder:
     - length_in_range: [4, 10]
       formula: "AaBaAdCaZa"
 ...
+
+颉	jhei
+行	hpee
+弹	tq
+调	tfu

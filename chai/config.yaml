@@ -217,6 +217,7 @@ form:
     目: t
     口: s
     wl-s: s
+    竹: y
   grouping: {}
 encoder:
   max_length: 6

@@ -120,12 +120,12 @@ const generateGuiBing = cf => {
 
 const main = () => {
     const biHuaData = readFileAndParseData('./bihua.txt')
-    const pinYinData = readFileAndParseData('./pinyin_gai.txt')
+    const pinYinData = readFileAndParseData('./pinyin.txt')
     const buShouData = readBuShou('./bushou.txt')
     const chaiFen = generateOriginalChaiFen(biHuaData, buShouData, pinYinData)
     const guiBing = generateGuiBing(generateOriginalChaiFen(biHuaData, buShouData, pinYinData))
-    writeToFile(chaiFen, './output_cf.txt')
-    writeToFile(guiBing, './output_gbcf.txt')
+    writeToFile(chaiFen, './output_cf_new.txt')
+    writeToFile(guiBing, './output_gbcf_new.txt')
 }
 
 main()
