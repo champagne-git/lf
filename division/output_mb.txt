@@ -20,8 +20,8 @@
 化	h,
 活	h.
 何	h/
-军	j;
-加	j,
+加	j;
+军	j,
 结	j.
 建	j/
 应	k;
@@ -68,6 +68,7 @@
 则	z,
 怎	z.
 字	z/
+专	vy
 的	dk
 一	fi
 是	si
@@ -196,7 +197,7 @@
 问	wg
 很	hp
 最	zm
-重	vy
+重	vyu
 并	bp
 物	wk
 手	so
@@ -486,7 +487,6 @@
 医	kgu
 局	jw
 突	tp
-专	vya
 费	fz
 号	hse
 尽	jwo
@@ -3432,7 +3432,7 @@
 敕	cue
 胺	rwoo
 萤	kheii
-筝	vyu
+筝	vyua
 幡	fbuo
 竺	vyee
 霹	pxa
@@ -4244,7 +4244,7 @@
 蛆	qhia
 掰	bouoau
 柠	nko
-篆	vyaa
+篆	vya
 倌	glo
 咛	nsoo
 蛭	vhea

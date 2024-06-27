@@ -23,6 +23,7 @@ encoder:
 行	hpee
 弹	tq
 调	tfu
+重	cy
 
 报	b;
 必	b,
@@ -46,8 +47,8 @@ encoder:
 化	h,
 活	h.
 何	h/
-军	j;
-加	j,
+加	j;
+军	j,
 结	j.
 建	j/
 应	k;
@@ -89,10 +90,12 @@ encoder:
 想	x,
 性	x.
 先	x/
+远	y;
 做	z;
 则	z,
 怎	z.
 字	z/
+专	vy
 的	dk
 一	fi
 是	si
@@ -221,7 +224,7 @@ encoder:
 问	wg
 很	hp
 最	zm
-重	vy
+重	vyu
 并	bp
 物	wk
 手	so
@@ -421,7 +424,6 @@ encoder:
 布	bb
 始	sw
 呢	ns
-远	yie
 叫	js
 台	tc
 单	dpi
@@ -512,7 +514,6 @@ encoder:
 医	kgu
 局	jw
 突	tp
-专	vya
 费	fz
 号	hse
 尽	jwo
@@ -738,7 +739,7 @@ encoder:
 村	ckei
 哈	hsu
 演	keoo
-策	cy
+策	cye
 简	jyo
 卡	ku
 罪	zy
@@ -1700,7 +1701,7 @@ encoder:
 祥	xvo
 阔	kgo
 誉	yfoo
-筹	cye
+筹	cyee
 丛	cruo
 牵	qno
 鸣	msu
@@ -2982,7 +2983,7 @@ encoder:
 磷	lxou
 雯	wxoe
 墟	xjie
-迂	yiee
+迂	yie
 瞻	vtua
 颅	lhie
 琉	lioea
@@ -3122,7 +3123,7 @@ encoder:
 秽	hvia
 茜	qiei
 搓	cooue
-芸	yieea
+芸	yiee
 赁	lzu
 酱	jcoe
 檐	kkua
@@ -3458,7 +3459,7 @@ encoder:
 敕	cue
 胺	rwoo
 萤	kheii
-筝	vyu
+筝	vyua
 幡	fbuo
 竺	vyee
 霹	pxa
@@ -4270,7 +4271,7 @@ encoder:
 蛆	qhia
 掰	bouoau
 柠	nko
-篆	vyaa
+篆	vya
 倌	glo
 咛	nsoo
 蛭	vhea
