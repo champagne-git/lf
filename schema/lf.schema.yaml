@@ -51,7 +51,7 @@ engine:
     - uniquifier
 
 speller:
-  alphabet: "qwertasdfgzxcvbyuiophjklnm"
+  alphabet: "qwertasdfgzxcvbyuiophjklnm;,./"
   initials: "qwrtsdfgzxcvbyphjklnm"
   auto_select: true
 
@@ -129,7 +129,7 @@ key_binder:
 
 recognizer:
   patterns:
-    characters: "^[qwrtypsdfghjklzxcvbnm][a-z]?[aeuio]*$"
+    characters: "^[qwrtypsdfghjklzxcvbnm][a-z;,./]?[aeuio]*$"
     bihua_lookup: "^~[hspnz]?[hspnz]*'?$"
     pinyin_lookup: "^`[qwtasdfgzxcvbyphjklnm]?[a-z]*'?$"
 
