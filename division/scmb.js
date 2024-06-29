@@ -4,7 +4,7 @@ const fs = require('fs')
 const readFileAndParseData = filePath => {
     const data = fs
         .readFileSync(filePath, 'utf8')
-        .split('\n')
+        .split(/\r?\n/)
         .filter(item => item.length != 0)
     const result = {}
     data.forEach(line => {
@@ -60,7 +60,7 @@ const main = () => {
     const wl = readFileAndParseData('./wlm.txt')
     const dict = generate(char, wl)
     const formattedData = formatData(dict)
-    writeToFile('./output_mb.txt', formattedData)
+    writeToFile('./output/output_mb.txt', formattedData)
 }
 
 main()
