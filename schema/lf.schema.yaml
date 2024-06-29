@@ -18,7 +18,7 @@ switches:
     reset: 0
     states: [ 中文, 西文 ]
   - name: chaifen
-    reset: 1
+    reset: 0
     states: [ 拆隐, 拆显 ]
 
 engine:
@@ -51,7 +51,7 @@ engine:
     - uniquifier
 
 speller:
-  alphabet: "qwertasdfgzxcvbyuiophjklnm;,./"
+  alphabet: "qwertasdfgzxcvbyuiophjklnm;,./2389"
   initials: "qwrtsdfgzxcvbyphjklnm"
   auto_select: true
 
@@ -129,9 +129,16 @@ key_binder:
 
 recognizer:
   patterns:
-    characters: "^[qwrtypsdfghjklzxcvbnm][a-z;,./]?[aeuio]*$"
+    characters: "^[qwrtypsdfghjklzxcvbnm][a-z;,./2389]?[aeuio]*$"
     bihua_lookup: "^~[hspnz]?[hspnz]*'?$"
     pinyin_lookup: "^`[qwtasdfgzxcvbyphjklnm]?[a-z]*'?$"
 
 menu:
   page_size: 6
+  alternative_select_keys: "_45670"
+
+style:
+  # horizontal: false
+  layout:
+    max_width: 0
+    min_width: 0

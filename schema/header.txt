@@ -19,8 +19,8 @@ encoder:
       formula: "AaBaAdCaZa"
 ...
 
-颉	jhei
-行	hpee
-弹	tq
-调	tfu
-重	cy
+# 颉	jhei
+# 行	hpee
+# 弹	tq
+# 调	tfu
+# 重	cy

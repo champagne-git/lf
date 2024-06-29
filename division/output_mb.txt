@@ -1,3 +1,53 @@
+出现	c
+成为	c8
+出来	c9
+的时候	d
+都是	d8
+但是	d9
+一个	f
+一样	f8
+一些	f9
+不是	g
+不能	g8
+感觉	g9
+还是	h
+还有	h2
+好像	h3
+就是	j
+觉得	j2
+进行	j3
+可以	k
+因为	k2
+已经	k3
+两个	l
+了，	l,
+了。	l.
+吗？	m
+那个	n
+那么	n2
+那些	n3
+起来	q
+其实	q8
+其他	q9
+然后	r
+而且	r8
+而是	r9
+所以	s
+时候	s8
+世界	s9
+这个	v
+这样	v8
+只是	v9
+为什么	w
+问题	w8
+完成	w9
+现在	x
+需要	x8
+喜欢	x9
+于是	y
+原来	y2
+越来越	y3
+怎么	z
 我们	wq
 他们	tq
 你们	nq
@@ -5,6 +55,46 @@
 没有	mk
 什么	sm
 自己	z;
+东西	dx
+成为[ ~8 ]	c
+出来[ ~9 ]	c
+都是[ ~8 ]	d
+但是[ ~9 ]	d
+东西[ ~x ]	d
+一样[ ~8 ]	f
+一些[ ~9 ]	f
+不能[ ~8 ]	g
+感觉[ ~9 ]	g
+还有[ ~2 ]	h
+好像[ ~3 ]	h
+觉得[ ~2 ]	j
+进行[ ~3 ]	j
+因为[ ~2 ]	k
+已经[ ~3 ]	k
+了，[ ~, ]	l
+了。[ ~. ]	l
+那么[ ~2 ]	n
+那些[ ~3 ]	n
+其实[ ~8 ]	q
+其他[ ~9 ]	q
+而且[ ~8 ]	r
+而是[ ~9 ]	r
+时候[ ~8 ]	s
+世界[ ~9 ]	s
+这样[ ~8 ]	v
+只是[ ~9 ]	v
+问题[ ~8 ]	w
+完成[ ~9 ]	w
+需要[ ~8 ]	x
+喜欢[ ~9 ]	x
+原来[ ~2 ]	y
+越来越[ ~3 ]	y
+自己[ ~; ]	z
+我们[ ~q ]	w
+你们[ ~q ]	n
+知道[ ~d ]	v
+没有[ ~k ]	m
+什么[ ~m ]	s
 必	b,
 便	b.
 八	b/
@@ -49,11 +139,11 @@
 议	k/
 样	k;
 可	ke
+呀	kk
 口	kx
 论	lb
 两	lf
 连	lg
-李	lk
 流	lu
 命	m;
 满	mx
@@ -85,6 +175,7 @@
 体	t;
 特	te
 看	tk
+挺	tp
 政	v,
 直	v.
 至	v/
@@ -115,6 +206,8 @@
 做	zk
 则	zp
 造	zy
+李	lk
+聊	lgu
 的	dk
 一	fi
 是	si
@@ -497,7 +590,7 @@
 首	spe
 医	kgu
 局	jw
-突	tp
+突	tpe
 专	vya
 费	fz
 号	hse
@@ -762,7 +855,7 @@
 超	cua
 免	mmi
 压	kbei
-银	kk
+银	kka
 买	mn
 皇	hce
 养	kpee
@@ -933,7 +1026,6 @@
 礼	lva
 港	geei
 雨	yx
-呀	ksea
 板	bku
 庭	tsu
 妇	fwa
@@ -1064,9 +1156,9 @@
 亿	klaa
 刺	cmei
 拥	koua
-徒	tpe
+徒	tpei
 姆	mwaa
-杨	kka
+杨	kkau
 齐	qt
 赛	sz
 趣	que
@@ -1101,7 +1193,7 @@
 唯	wsu
 谷	gsu
 轮	ldu
-库	kseae
+库	ksea
 迹	jio
 尤	kwo
 竞	jwia
@@ -1404,7 +1496,7 @@
 租	zvi
 骑	qfe
 乏	fno
-隆	lgu
+隆	lgua
 诊	vfu
 奴	nwao
 摄	soe
@@ -1471,7 +1563,6 @@
 恋	loo
 餐	csie
 吓	xsei
-挺	touei
 励	leeu
 辞	cjo
 艘	scu
@@ -1936,7 +2027,6 @@
 丘	qni
 桂	gkei
 滋	zeo
-聊	lgua
 挡	doio
 纲	gdia
 肌	jwu
@@ -2839,7 +2929,7 @@
 虔	qroe
 畔	pro
 琐	sii
-碟	dx
+碟	dxe
 涩	seau
 胧	lweu
 嘟	dseie
@@ -3084,7 +3174,7 @@
 壕	hjoe
 夭	kneu
 锯	jkaeu
-咦	kseaea
+咦	kseae
 侈	clua
 婢	bwui
 猾	hfi
@@ -3718,7 +3808,7 @@
 糜	mzo
 瘢	bauu
 跤	jaoe
-恬	toueii
+恬	touei
 阑	lgeiao
 豢	hqo
 汶	weo
@@ -4753,7 +4843,7 @@
 翦	jqou
 谶	cfuo
 怩	noaeu
-楹	kkau
+楹	kkaua
 蠼	qhiae
 霏	fxi
 讴	rfe
@@ -5475,7 +5565,7 @@
 怄	roeuo
 矬	cpuou
 硗	qxea
-碡	dxe
+碡	dxee
 糅	rza
 缗	mdae
 虺	hheu
